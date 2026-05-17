@@ -1,154 +1,55 @@
 # IntelliBI
 
-IntelliBI – AI-Powered Business Intelligence & Anomaly Detection Dashboard
+🧠 IntelliBI – AI-Driven Business Intelligence Platform
+An intelligent, AI-powered BI dashboard built with Python & Streamlit.
 
-📌 Overview
-
-IntelliBI is an AI-driven Business Intelligence dashboard designed to analyze business datasets, detect anomalies, and generate meaningful insights using Machine Learning and Data Visualization techniques.
-The project combines Power BI concepts, Python ML models, and interactive dashboards to help organizations make data-driven decisions efficiently.
-
-This system uses anomaly detection algorithms such as Isolation Forest and DBSCAN to identify unusual patterns in business data and present them through an easy-to-understand dashboard interface.
-
-🚀 Features
-
-📊 Interactive Business Intelligence Dashboard
-
-🤖 AI-based anomaly detection
-
-📈 Real-time data visualization
-
-🔍 Detection of unusual business trends
-
-🧠 Machine Learning integration
-
-📉 Profit, sales, and region-wise analysis
-
-📋 User-friendly interface
-
-⚡ Fast and automated analytics
-
-
-🛠️ Technologies Used
-
-Python
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Matplotlib
-
-Seaborn
-
-Streamlit
-
-Power BI
-
-Isolation Forest
-
-DBSCAN
-
-
-🧠 Machine Learning Algorithms
-
-1. Isolation Forest
-
-Used for detecting anomalies by isolating outliers in the dataset.
-
-2. DBSCAN
-
-Density-based clustering algorithm used to identify abnormal data points and clusters.
-
-📂 Project Structure
-
-IntelliBI/
-│── dataset/
-│── dashboard/
-│── models/
-│── notebooks/
-│── app.py
-│── requirements.txt
-│── README.md
-
-📊 Dashboard Insights
-
-The dashboard provides:
-
-Region-wise Profit Analysis
-
-Sales Trend Analysis
-
-Customer Behavior Insights
-
-Outlier Detection
-
-Business Performance Metrics
-
-Cluster-based Analysis
-
-
-⚙️ Installation
-
-Step 1: Clone the Repository
-
-git clone https://github.com/anshi0509/IntelliBI.git
-
-Step 2: Navigate to Project Folder
-
-cd IntelliBI
-
-Step 3: Install Dependencies
-
+🚀 Quick Start
+1. Install Dependencies
 pip install -r requirements.txt
-
-Step 4: Run the Application
-
+2. Run the App
 streamlit run app.py
 
-📈 Use Cases
-
-Business Analytics
-
-Fraud Detection
-
-Sales Monitoring
-
-Customer Segmentation
-
-Predictive Insights
-
-Performance Optimization
+| Feature               | Description                                 |
+| --------------------- | ------------------------------------------- |
+| 📡 Live API Data      | Fetches real-time products from API         |
+| 📁 CSV Upload         | Upload your own dataset with auto-detection |
+| 📊 KPI Cards          | Total Sales, Profit, Avg Margin, Products   |
+| 📈 Interactive Charts | Bar, Pie, Line, Scatter & Trend charts      |
+| 🤖 AI Insights        | Auto-generated business insights            |
+| 💬 Chat Interface     | Ask questions in plain English              |
+| 🔍 Smart Filters      | Category filter + price slider              |
+| 🚨 Anomaly Detection  | Detects unusual patterns in data            |
+| ⬇️ Export CSV         | Download filtered dataset                   |
 
 
-📷 Screenshots
+💬 Chat Query Examples
+"What is total sales?"
+"Which product has the highest profit?"
+"Show top 3 categories"
+"What is the profit margin?"
+"How many products are there?"
+"Are there any outliers?"
+"Give me a summary"
+"What is the average price?"
 
-Add dashboard screenshots here for better visualization.
+📁 Project Structure
+IntelliBI/
+├── app.py              # Main Streamlit application
+├── requirements.txt    # Python dependencies
+└── README.md           # This file
 
-🔮 Future Enhancements
+🛠 Tech Stack
+Streamlit – UI framework
+Pandas – Data manipulation
+NumPy – Numerical operations
+Plotly – Interactive charts
+Requests – API calls
 
-Real-time API integration
+🤖 Machine Learning Used
+🔹 Isolation Forest-Detects anomalies and outliers in datasets.
+🔹 DBSCAN=Performs clustering and unusual behavior detection.
 
-Advanced predictive analytics
-
-NLP-based report generation
-
-Cloud deployment
-
-Automated alert system
-
-
-👩‍💻 Author
-
-Developed by Arshita Singh
-
-📄 License
-
-This project is open-source and available under the MIT License.
-
-🔗 GitHub Repository
-
-[IntelliBI GitHub Repository](https://github.com/anshi0509/IntelliBI?utm_source=chatgpt.com)
-
-The repository appears to focus on AI-powered business intelligence and anomaly detection concepts using Python, Streamlit, and ML-based analytics.
+📝 Notes
+API data auto-refreshes every 60 seconds (click "Refresh Data" for manual refresh)
+For CSV uploads, the app auto-detects columns and derives missing fields (sales, profit, etc.)
+Outlier detection uses the IQR (Interquartile Range) method
