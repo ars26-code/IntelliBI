@@ -1,11 +1,7 @@
-# IntelliBI
 
-🧠 IntelliBI – AI-Driven Business Intelligence Platform
+# IntelliBI – AI Powered Business Intelligence Platform
 
----
-
-
-📌 Overview
+## 📌 Overview
 
 IntelliBI is an AI-driven Business Intelligence platform designed to simplify data analytics, anomaly detection, and business reporting. The system helps organizations analyze datasets, identify unusual patterns, and generate interactive dashboards for better decision-making.
 
@@ -13,8 +9,7 @@ The project combines Machine Learning, Data Analytics, and Visualization techniq
 
 ---
 
-
- 🚀 Features
+## 🚀 Features
 
 * 📊 Interactive Business Dashboard
 * 🤖 AI-based Data Analysis
@@ -27,8 +22,7 @@ The project combines Machine Learning, Data Analytics, and Visualization techniq
 
 ---
 
-
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 ### Frontend
 
@@ -58,13 +52,17 @@ The project combines Machine Learning, Data Analytics, and Visualization techniq
 
 ## 📂 Project Structure
 
+```bash
 IntelliBI/
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Python dependencies
-└── README.md           # This file
+│── data/                  # Dataset files
+│── models/                # ML models
+│── dashboard/             # Dashboard components
+│── app.py                 # Main application
+│── requirements.txt       # Dependencies
+│── README.md              # Project documentation
+```
 
 ---
-
 
 ## ⚙️ Installation
 
@@ -136,6 +134,7 @@ Used for clustering and identifying unusual data behavior.
 
 ---
 
+
 ## ⭐ Contribution
 
 Contributions, issues, and feature requests are welcome.
@@ -145,4 +144,5 @@ Contributions, issues, and feature requests are welcome.
 3. Commit your changes
 4. Push to the branch
 5. Open a Pull Request
+
 
